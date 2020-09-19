@@ -11,11 +11,22 @@
 html,
 body {
 	background-color: #fff;
-	color: #fff;
+	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
+}
+
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
 }
 
 /*-------------------------------------------- */
@@ -51,11 +62,42 @@ h1 {
 	letter-spacing: 1px;
 }
 
+h2 {
+	font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+h2:after {
+	display: block;
+	height: 3px;
+	background-color: #114b4d;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+	line-height: 145%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.box p {
+	font-size: 90%;
+	line-height: 145%;
+}
+
+
 /*-------------------------------------------- */
 /* HEADER */
 /*-------------------------------------------- */
 header {
-		background-color: #114b4d;
+	background-color: #114b4d;
 }
 
 .background__hero {
@@ -118,4 +160,66 @@ header {
 	padding: 10px;
 	background-color: white;
 	border: groove 7px #1e6568;
+}
+
+/* ----------------------------------------------- */
+/* SOBRE NOS */
+/* ----------------------------------------------- */
+
+.section-sobre-nos {
+	background-color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* NOSSOS SERVICOS */
+/* ----------------------------------------------- */
+
+.section-nossos-servicos {
+	background-color: #f4f4f4;
+}
+
+.nossos-servicos-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #efefef;
+}
+
+.nossos-servicos-box div {
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.nossos-servicos-box div:first-child {
+	background-color: #fcfcfc;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.nossos-servicos-box h3{
+	display: inline-block;
+	position: absolute;
+	padding-top: 2px;
+}
+
+.nossos-servicos-box ul {
+	list-style: none;
+}
+
+.nossos-servicos-box ul li {
+	padding: 5px 0;
+}
+
+.nossos-servicos-box ion-icon {
+	color: #114b4d;
+}
+
+.nossos-servicos-box ul li ion-icon {
+	padding-right: 10px;
+}
+
+.nossos-servicos-box div:first-child ion-icon {
+	padding-right: 11px;
+	font-size: 160%;
 }
