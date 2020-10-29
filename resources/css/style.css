@@ -223,3 +223,49 @@ header {
 	padding-right: 11px;
 	font-size: 160%;
 }
+
+/* ----------------------------------------------- */
+/* NOSSOS SERVICOS */
+/* ----------------------------------------------- */
+
+footer {
+	background-color: #114b4d;
+	padding: 40px;
+	font-size: 90%;
+}
+
+.social-medias{
+	width: 15%;
+	margin: auto;
+}
+
+.social-icons {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 150%;
+	text-decoration: none;	
+}
+
+.social-icons li a:visited {
+	color: #fff;
+}
+
+.logo-instagram:hover{
+	color: #c32aa3;
+}
+
+.logo-facebook:hover{
+	color: #1877f2;
+}
+
+.logo-whatsapp:hover{
+	color: #25d366;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	font-size: 90%;
+	padding-top: 15px;
+}
