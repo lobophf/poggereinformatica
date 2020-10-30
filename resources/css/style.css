@@ -259,13 +259,13 @@ header {
 /* ----------------------------------------------- */
 
 footer {
-	background-color: #114b4d;
-	padding: 40px;
+	background-color: #333;
+	padding: 30px;
 	font-size: 90%;
 }
 
 .social-medias{
-	width: 170px;
+	width: 220px;
 	margin: auto;
 }
 
@@ -275,10 +275,11 @@ footer {
 	justify-content: space-between;
 	font-size: 165%;
 	text-decoration: none;	
+	color: #999;
 }
 
 .social-icons li a:visited {
-	color: #fff;
+	color: #999;
 }
 
 .mail:hover{
