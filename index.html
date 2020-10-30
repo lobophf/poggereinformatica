@@ -5,6 +5,13 @@
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		
+		 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+ 		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
 
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
 		<title>Poggere Informática</title>
@@ -98,6 +105,20 @@
 				</div>
 			</div>
 		</section>
+		<section class="row localizacao">
+			<h2>Localização</h2>
+			<div class="localizacao__content">
+				<div id="mapid">
+				</div>
+				<div class="informacoes">
+					<p>R. Felipe Schmidt,<br> 
+						nº 2045, sala 2, <br>
+						Centro,<br> 
+						Ouro - SC,<br> 
+					CEP: 89663-000</p>		
+				</div>
+			<div>
+		</section>
 		<footer>
 			<div class="social-medias">
 				<ul class="social-icons">
@@ -111,5 +132,6 @@
 			</div>
 		</footer>
 		<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+		<script src="./resources/scripts/map.js"></script>
 	</body>
 </html>
