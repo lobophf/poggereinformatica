@@ -210,7 +210,6 @@ header {
 .nossos-servicos-box ul li {
 	padding: 5px 0;
 }
-
 .nossos-servicos-box ion-icon {
 	color: #114b4d;
 }
@@ -222,6 +221,37 @@ header {
 .nossos-servicos-box div:first-child ion-icon {
 	padding-right: 11px;
 	font-size: 160%;
+}
+/* ----------------------------------------------- */
+/* LOCALIZAÇÃO */
+/* ----------------------------------------------- */
+
+.localizacao {
+	padding-bottom: 0;
+}
+
+.localizacao__content {
+	display: flex;
+	justify-content: column;
+}
+
+#mapid {
+	height: 400px;
+	width: clamp(55%, 60%, 70%);
+}
+
+.informacoes {
+	color: #fff;
+	height: 400px;
+	width: 600px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(https://dl.dropboxusercontent.com/s/11c9l6mr9nhb8x9/foto4.jpeg?dl=0);
+	background-size: 150%;
+}
+
+.informacoes p {
+	padding-top: 20px;
+	padding-left: 20px;
+	line-height: 1.5em
 }
 
 /* ----------------------------------------------- */
