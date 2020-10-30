@@ -281,6 +281,10 @@ footer {
 	color: #fff;
 }
 
+.mail-outline:hover{
+	color: #2BEEF4;
+}
+
 .logo-instagram:hover{
 	color: #c32aa3;
 }
