@@ -273,7 +273,7 @@ footer {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	font-size: 150%;
+	font-size: 165%;
 	text-decoration: none;	
 }
 
@@ -281,8 +281,8 @@ footer {
 	color: #fff;
 }
 
-.mail-outline:hover{
-	color: #2BEEF4;
+.mail:hover{
+	color: #229b9f;
 }
 
 .logo-instagram:hover{
