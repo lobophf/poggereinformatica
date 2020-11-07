@@ -21,6 +21,7 @@ body {
 .clearfix {
 	zoom: 1;
 }
+
 .clearfix:after {
 	content: '.';
 	clear: both;
@@ -49,7 +50,8 @@ section {
 /* ----- HEADINGS ----- */
 h1,
 h2,
-h3 {
+h3,
+h4{
 	font-weight: 300;
 }
 
@@ -80,6 +82,7 @@ h2:after {
 	margin-top: 30px;
 }
 
+
 /* ----- PARAGRAPHS ----- */
 .long-copy {
 	line-height: 145%;
@@ -87,7 +90,7 @@ h2:after {
 	margin-left: 15%;
 }
 
-.box p {
+.box p{
 	font-size: 90%;
 	line-height: 145%;
 }
@@ -210,6 +213,7 @@ header {
 .nossos-servicos-box ul li {
 	padding: 5px 0;
 }
+
 .nossos-servicos-box ion-icon {
 	color: #114b4d;
 }
@@ -226,8 +230,23 @@ header {
 /* LOCALIZAÇÃO */
 /* ----------------------------------------------- */
 
+.contact_header {
+	border-radius: 5px 5px 0 0;
+	padding: 8px 0 8px 0;
+	background-color: #114b4d;
+}
+
+h4 {
+	font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+}
+
 .localizacao {
 	padding-bottom: 0;
+	padding-top: 0;
 }
 
 .localizacao__content {
@@ -236,8 +255,61 @@ header {
 }
 
 #mapid {
-	height: 400px;
-	width: clamp(55%, 60%, 70%);
+	height: calc(100vh - 30px - 20px * 0.9);
+	width: 100%;
+}
+
+#logoContainer {
+	position: absolute;
+	z-index: 100;
+	top: 0px;
+	left: 700px;
+	background-color: white;
+	border: 0px;
+	width: 480px;
+	height: 575px;
+	justify-content: center;
+	margin: 0 auto;
+	box-shadow: 0px 0px 20px #a8a8a8;
+	border-radius: 5px;
+	opacity: 0.90;
+}
+
+form {
+	padding: 0 20px 0 20px;
+}
+
+
+.form-group{
+	width:100%;
+	margin-top: 20px;
+	font-size: 140%;
+}
+
+.form-group input,
+.form-group textarea{
+	width: 100%;
+	font-size: 100%;
+	border: 1px solid #a8a8a8;
+	border-radius: 5px;
+}
+
+textarea{
+	resize: none;
+	height: 160px;
+}
+
+button[type="submit"]{
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	text-align: center;
+	background-color: #114b4d;
 }
 
 .informacoes {
@@ -254,16 +326,6 @@ header {
 	line-height: 1.5em
 }
 
-/* ----------------------------------------------- */
-/* FOOTER */
-/* ----------------------------------------------- */
-
-footer {
-	background-color: #333;
-	padding: 30px;
-	font-size: 90%;
-}
-
 .social-medias{
 	width: 220px;
 	margin: auto;
@@ -273,17 +335,14 @@ footer {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	font-size: 165%;
+	font-size: 260%;
 	text-decoration: none;	
-	color: #999;
+	padding-top: 55px;
 }
 
 .social-icons li a:visited {
-	color: #999;
-}
-
-.mail:hover{
-	color: #229b9f;
+	color: #114b4d;
+	background-color: white;
 }
 
 .logo-instagram:hover{
@@ -298,9 +357,20 @@ footer {
 	color: #25d366;
 }
 
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+	background-color: #333;
+	font-size: 90%;
+}
+
 footer p {
 	color: #fff;
 	text-align: center;
 	font-size: 90%;
-	padding-top: 15px;
+	padding: 15px 0 15px 0;
 }

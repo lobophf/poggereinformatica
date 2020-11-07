@@ -12,3 +12,8 @@ L.marker([-27.3383209,-51.6110534])
 	.addTo(map)
 	.bindPopup(popup)
 	.openPopup();
+
+var mapControlsContainer = document.getElementsByClassName("leaflet-control")[0];
+var logoContainer = document.getElementById("logoContainer");
+mapControlsContainer.appendChild(logoContainer);
+
