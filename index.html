@@ -103,32 +103,41 @@
 				</div>
 			</div>
 		</section>
-		<section class="row localizacao" id="localizacao">
-			<h2>Localização</h2>
-			<div class="localizacao__content">
-				<div id="mapid">
+		<section class="localizacao" id="localizacao">
+			<div id="mapid">
+			</div>
+			<div id="logoContainer">
+				<div class="contact_header">
+					<h4>Contato</h4>
 				</div>
-				<div class="informacoes">
-					<p>R. Felipe Schmidt,<br> 
-						nº 2045, sala 2, <br>
-						Centro,<br> 
-						Ouro - SC,<br> 
-					CEP: 89663-000</p>		
-				</div>
-			<div>
+				<form action "">
+					<div class="form-group">
+						<label for="Nome">Nome</label>
+						<input type="text" id="nome" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email">
+					</div>
+					<div class="form-group">
+						<label for="message">Mensagem</label>
+						<textarea name="message" id="message" cols="30" rows="10"> </textarea>
+					</div>
+					<button type="submit"><h4>enviar</h4></button>
+					<div class="social-medias">
+						<ul class="social-icons">
+							<li><a href="https://www.instagram.com/tiagopoggere/"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
+							<li><a href="https://pt-br.facebook.com/poggereinformatica/"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
+							<li><a href="https://api.whatsapp.com/send?l=pt-pt_BR&phone=+5504935553277"><ion-icon class="logo-whatsapp" name="logo-whatsapp"></ion-icon></a></li>
+						</ul>
+					</div>
+				</form>
+			</div>
+	
+			</div>
 		</section>
 		<footer>
-			<div class="social-medias">
-				<ul class="social-icons">
-					<li><a href="mailto:contato@poggereinformatica.com.br" style='color: #999;'><ion-icon class="mail" name="mail"></ion-icon></a></li>
-					<li><a href="https://www.instagram.com/tiagopoggere/"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
-					<li><a href="https://pt-br.facebook.com/poggereinformatica/"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
-					<li><a href="https://api.whatsapp.com/send?l=pt-pt_BR&phone=+5504935553277" style='color: #999;'><ion-icon class="logo-whatsapp" name="logo-whatsapp"></ion-icon></a></li>
-				</ul>
-			</div>
-			<div>
-				<p>&copy; 2020 Poggere Informática. Todos os direitos reservados.</p>
-			</div>
+			<p>&copy; 2020 Poggere Informática. Todos os direitos reservados.</p>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
