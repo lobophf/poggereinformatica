@@ -51,7 +51,7 @@ section {
 h1,
 h2,
 h3,
-h4{
+h4 {
 	font-weight: 300;
 }
 
@@ -82,6 +82,39 @@ h2:after {
 	margin-top: 30px;
 }
 
+.contact-hero {
+	float: left;
+	list-style: none;
+	margin: 30px 0 0 55px;
+	color: #fff;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.contact-hero ion-icon {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 150%;
+	text-align: center;
+
+	line-height: 150%;
+	vertical-align: middle;
+}
+
+.call-outline {
+	margin-top: -2px;
+}
+
+.home-outline {
+	margin-top: -11px;
+}
+
+.contact-hero p {
+	display: inline-block;
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-size: 112%;
+}
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
@@ -104,7 +137,7 @@ header {
 }
 
 .background__hero {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+	background-image: linear-gradient(180deg, rgba(0,2,15,1) 0%, rgba(9,10,121,0.08025208374365367) 50%, rgba(0,2,15,1) 100%), url(https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
 	background-size: cover;
 	background-position: bottom;
 	height: calc(100vh - 60px);
