@@ -291,6 +291,7 @@ form {
 	font-size: 100%;
 	border: 1px solid #a8a8a8;
 	border-radius: 5px;
+	padding-left: 10px;
 }
 
 textarea{
