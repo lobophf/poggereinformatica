@@ -337,23 +337,38 @@ button[type="submit"]{
 	font-size: 260%;
 	text-decoration: none;	
 	padding-top: 55px;
+	background-color: white;
 }
 
 .social-icons li a:visited {
-	color: #114b4d;
 	background-color: white;
+}
+
+.logo-instagram{
+	color: #114b4d;
+}
+
+.logo-facebook{
+	color: #114b4d;
+}
+
+.logo-whatsapp{
+	color: #114b4d;
 }
 
 .logo-instagram:hover{
 	color: #c32aa3;
+	background-color: white;
 }
 
 .logo-facebook:hover{
 	color: #1877f2;
+	background-color: white;
 }
 
 .logo-whatsapp:hover{
 	color: #25d366;
+	background-color: white;
 }
 
 
