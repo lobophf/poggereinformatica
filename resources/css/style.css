@@ -260,7 +260,7 @@ header {
 	font-size: 160%;
 }
 /* ----------------------------------------------- */
-/* LOCALIZAÇÃO */
+/* CONTATO */
 /* ----------------------------------------------- */
 
 .contact_header {
@@ -277,12 +277,12 @@ h4 {
 	color: white;
 }
 
-.localizacao {
+.contato {
 	padding-bottom: 0;
 	padding-top: 0;
 }
 
-.localizacao__content {
+.contato__content {
 	display: flex;
 	justify-content: column;
 }
