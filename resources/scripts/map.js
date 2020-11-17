@@ -1,4 +1,11 @@
-const map = L.map('mapid').setView([-27.3393582,-51.6081747], 16.1);
+const options = {
+	dragging: false,
+	touchZoom: false,
+	doubleClickZoom: false,
+	scrollWheelZoom: false,
+}
+
+const map = L.map('mapid', options).setView([-27.3393582,-51.6081747], 16.1);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
