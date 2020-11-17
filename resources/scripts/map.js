@@ -13,7 +13,7 @@ const popup = L.popup({
 	closeButton: false,
 	className: 'map-popup',
 	minHeight: 240
-}).setContent("Poggere Informática")
+}).setContent("Poggere Informática<br>R. Felipe Schmidt, 2045, Ouro - SC")
 
 L.marker([-27.3383209,-51.6110534])
 	.addTo(map)

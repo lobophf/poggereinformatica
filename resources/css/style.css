@@ -9,7 +9,8 @@
 }
 
 html,
-body {
+body,
+.leaflet-popup-content {
 	background-color: #fff;
 	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
@@ -420,4 +421,12 @@ footer p {
 	text-align: center;
 	font-size: 90%;
 	padding: 15px 0 15px 0;
+}
+
+.leaflet-popup-content {
+	font-size: 150%;
+}
+
+.leaflet-popup-content br {
+	line-height: 2.0em;
 }
